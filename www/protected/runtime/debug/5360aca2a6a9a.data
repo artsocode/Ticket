@@ -1,0 +1,105 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:6:"5.3.28";s:10:"yiiVersion";s:6:"1.1.14";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.14";s:4:"name";s:63:"Ticket - Купи билет в кино без проблем!";s:8:"timezone";s:13:"Europe/Moscow";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:6:"5.3.28";s:6:"xdebug";b:1;s:3:"apc";b:0;s:8:"memcache";b:1;}}s:7:"request";a:13:{s:7:"flashes";a:0:{}s:10:"statusCode";N;s:14:"requestHeaders";a:12:{s:4:"Host";s:16:"ticket.socode.ru";s:10:"Connection";s:10:"keep-alive";s:14:"Content-Length";s:2:"24";s:6:"Accept";s:3:"*/*";s:6:"Origin";s:23:"http://ticket.socode.ru";s:16:"X-Requested-With";s:14:"XMLHttpRequest";s:10:"User-Agent";s:109:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36";s:12:"Content-Type";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:7:"Referer";s:38:"http://ticket.socode.ru/movie/buy?id=1";s:15:"Accept-Encoding";s:17:"gzip,deflate,sdch";s:15:"Accept-Language";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:6:"Cookie";s:177:"__utma=82249620.1911515606.1398769041.1398769041.1398769041.1; __utmc=82249620; __utmz=82249620.1398769041.1.1.utmcsr=ticket.socode.ru|utmccn=(referral)|utmcmd=referral|utmcct=/";}s:15:"responseHeaders";a:1:{s:12:"Content-type";s:9:"text/html";}s:5:"route";s:14:"movie/getSeats";s:6:"action";s:33:"MovieController::actionGetSeats()";s:12:"actionParams";a:0:{}s:6:"SERVER";a:39:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:16:"ticket.socode.ru";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:2:"24";s:11:"HTTP_ACCEPT";s:3:"*/*";s:11:"HTTP_ORIGIN";s:23:"http://ticket.socode.ru";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36";s:12:"CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:12:"HTTP_REFERER";s:38:"http://ticket.socode.ru/movie/buy?id=1";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip,deflate,sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:11:"HTTP_COOKIE";s:177:"__utma=82249620.1911515606.1398769041.1398769041.1398769041.1; __utmc=82249620; __utmz=82249620.1398769041.1.1.utmcsr=ticket.socode.ru|utmccn=(referral)|utmcmd=referral|utmcct=/";s:4:"PATH";s:341:"W:\modules\php\PHP-5.3.28\ext;W:\modules\php\PHP-5.3.28\pear;W:\modules\php\PHP-5.3.28\pear\bin;W:\modules\imagemagick;W:\modules\php\PHP-5.3.28;W:\modules\database\MySQL-5.5.37\bin;W:\modules\http\Apache-2.2.27\bin;W:\modules\http\Apache-2.2.27;W:\modules\wget\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:62:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.py;.pyw";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:21:"Apache/2.2.27 (Win32)";s:11:"SERVER_NAME";s:16:"ticket.socode.ru";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:27:"W:/domains/ticket.socode.ru";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:37:"W:/domains/ticket.socode.ru/index.php";s:11:"REMOTE_PORT";s:5:"11897";s:12:"REDIRECT_URL";s:15:"/movie/getSeats";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:15:"/movie/getSeats";s:11:"SCRIPT_NAME";s:10:"/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:12:"REQUEST_TIME";i:1398844578;s:4:"argv";a:0:{}s:4:"argc";i:0;}s:3:"GET";a:0:{}s:4:"POST";a:2:{s:11:"schedule_id";s:2:"40";s:7:"film_id";s:1:"1";}s:6:"COOKIE";a:3:{s:6:"__utma";s:54:"82249620.1911515606.1398769041.1398769041.1398769041.1";s:6:"__utmc";s:8:"82249620";s:6:"__utmz";s:90:"82249620.1398769041.1.1.utmcsr=ticket.socode.ru|utmccn=(referral)|utmcmd=referral|utmcct=/";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:9:{i:0;a:4:{i:0;s:83:"Loading "debug" application component
+in W:\domains\ticket.socode.ru\index.php (13)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1398844578.6796491146087646484375;}i:1;a:4:{i:0;s:170:"Loading "urlManager" application component
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (99)
+in W:\domains\ticket.socode.ru\index.php (13)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1398844578.6856501102447509765625;}i:2;a:4:{i:0;s:288:"Loading "request" application component
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (297)
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (160)
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (108)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1398844578.6876499652862548828125;}i:3;a:4:{i:0;s:256:"Loading "assetManager" application component
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (161)
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (108)
+in W:\domains\ticket.socode.ru\index.php (13)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1398844578.6926500797271728515625;}i:4;a:4:{i:0;s:256:"Loading "clientScript" application component
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (163)
+in W:\domains\ticket.socode.ru\protected\extensions\yii2-debug\Yii2Debug.php (108)
+in W:\domains\ticket.socode.ru\index.php (13)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1398844578.6946499347686767578125;}i:5;a:4:{i:0;s:248:"Loading "db" application component
+in W:\domains\ticket.socode.ru\protected\models\movieModel.php (31)
+in W:\domains\ticket.socode.ru\protected\models\movieModel.php (11)
+in W:\domains\ticket.socode.ru\protected\controllers\MovieController.php (91)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1398844578.7006509304046630859375;}i:6;a:4:{i:0;s:235:"Opening DB connection
+in W:\domains\ticket.socode.ru\protected\models\movieModel.php (31)
+in W:\domains\ticket.socode.ru\protected\models\movieModel.php (11)
+in W:\domains\ticket.socode.ru\protected\controllers\MovieController.php (91)";i:1;s:5:"trace";i:2;s:23:"system.db.CDbConnection";i:3;d:1398844578.701651096343994140625;}i:7;a:4:{i:0;s:343:"Querying SQL: SELECT id AS c_id,
+                                 cinema_name AS c_name
+                            FROM cinema
+in W:\domains\ticket.socode.ru\protected\models\movieModel.php (31)
+in W:\domains\ticket.socode.ru\protected\models\movieModel.php (11)
+in W:\domains\ticket.socode.ru\protected\controllers\MovieController.php (91)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1398844578.7146511077880859375;}i:8;a:4:{i:0;s:773:"Querying SQL: SELECT se.id,
+                                 se.row,
+                                 se.place,
+                                 ti.is_active
+
+                            FROM seat se
+
+                       LEFT JOIN ticket ti
+                              ON ti.seat_id = se.id
+
+                            JOIN schedule sc
+                              ON sc.id = :schedule_id
+
+                           WHERE se.cinema_hall_id = sc.cinema_hall_id
+                             AND sc.film_id = :film_id. Bound with :film_id='1', :schedule_id='40'
+in W:\domains\ticket.socode.ru\protected\models\movieModel.php (109)
+in W:\domains\ticket.socode.ru\protected\controllers\MovieController.php (92)
+in W:\domains\ticket.socode.ru\index.php (13)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1398844578.715651035308837890625;}}}s:9:"profiling";a:3:{s:6:"memory";i:4789512;s:4:"time";d:0.04500293731689453125;s:8:"messages";a:4:{i:0;a:4:{i:0;s:149:"begin:system.db.CDbCommand.query(SELECT id AS c_id,
+                                 cinema_name AS c_name
+                            FROM cinema)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.7146511077880859375;}i:1;a:4:{i:0;s:147:"end:system.db.CDbCommand.query(SELECT id AS c_id,
+                                 cinema_name AS c_name
+                            FROM cinema)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.715651035308837890625;}i:2;a:4:{i:0;s:600:"begin:system.db.CDbCommand.query(SELECT se.id,
+                                 se.row,
+                                 se.place,
+                                 ti.is_active
+
+                            FROM seat se
+
+                       LEFT JOIN ticket ti
+                              ON ti.seat_id = se.id
+
+                            JOIN schedule sc
+                              ON sc.id = :schedule_id
+
+                           WHERE se.cinema_hall_id = sc.cinema_hall_id
+                             AND sc.film_id = :film_id. Bound with :film_id='1', :schedule_id='40')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.715651035308837890625;}i:3;a:4:{i:0;s:598:"end:system.db.CDbCommand.query(SELECT se.id,
+                                 se.row,
+                                 se.place,
+                                 ti.is_active
+
+                            FROM seat se
+
+                       LEFT JOIN ticket ti
+                              ON ti.seat_id = se.id
+
+                            JOIN schedule sc
+                              ON sc.id = :schedule_id
+
+                           WHERE se.cinema_hall_id = sc.cinema_hall_id
+                             AND sc.film_id = :film_id. Bound with :film_id='1', :schedule_id='40')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.715651035308837890625;}}}s:2:"db";a:2:{s:8:"messages";a:4:{i:0;a:4:{i:0;s:149:"begin:system.db.CDbCommand.query(SELECT id AS c_id,
+                                 cinema_name AS c_name
+                            FROM cinema)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.7146511077880859375;}i:1;a:4:{i:0;s:147:"end:system.db.CDbCommand.query(SELECT id AS c_id,
+                                 cinema_name AS c_name
+                            FROM cinema)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.715651035308837890625;}i:2;a:4:{i:0;s:600:"begin:system.db.CDbCommand.query(SELECT se.id,
+                                 se.row,
+                                 se.place,
+                                 ti.is_active
+
+                            FROM seat se
+
+                       LEFT JOIN ticket ti
+                              ON ti.seat_id = se.id
+
+                            JOIN schedule sc
+                              ON sc.id = :schedule_id
+
+                           WHERE se.cinema_hall_id = sc.cinema_hall_id
+                             AND sc.film_id = :film_id. Bound with :film_id='1', :schedule_id='40')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.715651035308837890625;}i:3;a:4:{i:0;s:598:"end:system.db.CDbCommand.query(SELECT se.id,
+                                 se.row,
+                                 se.place,
+                                 ti.is_active
+
+                            FROM seat se
+
+                       LEFT JOIN ticket ti
+                              ON ti.seat_id = se.id
+
+                            JOIN schedule sc
+                              ON sc.id = :schedule_id
+
+                           WHERE se.cinema_hall_id = sc.cinema_hall_id
+                             AND sc.film_id = :film_id. Bound with :film_id='1', :schedule_id='40')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1398844578.715651035308837890625;}}s:11:"connections";a:1:{s:2:"db";a:4:{s:5:"class";s:13:"CDbConnection";s:6:"driver";s:5:"mysql";s:6:"server";s:10:"5.5.37-log";s:4:"info";s:133:"Uptime: 12391  Threads: 1  Questions: 366  Slow queries: 0  Opens: 50  Flush tables: 1  Open tables: 0  Queries per second avg: 0.029";}}}s:7:"summary";a:7:{s:3:"tag";s:13:"5360aca2a6a9a";s:3:"url";s:38:"http://ticket.socode.ru/movie/getSeats";s:4:"ajax";b:1;s:6:"method";s:4:"POST";s:4:"code";N;s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1398844578;}}
