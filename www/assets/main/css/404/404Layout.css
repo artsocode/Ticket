@@ -1,0 +1,19 @@
+/*Контейнер для блока 404 начало*/
+ .page-404-container {
+    width: 960px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+/*Текст 404*/
+ .page-404-text {
+    font-family: Arial;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+}
+/*Картинка 404*/
+ .page-404-image {
+    margin-top: 200px;
+}
+/*Контейнер для блока 404 конец*/

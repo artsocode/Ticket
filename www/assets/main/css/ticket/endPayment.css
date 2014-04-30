@@ -1,0 +1,23 @@
+/*Завершение платежа начало*/
+ .end-payment {
+    width: 888px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.message-box {
+    background-color: #fdf7f7;
+    border-left: 3px solid #d9534f;
+    margin: 20px 38px;
+    padding: 20px;
+}
+.message-success {
+    border-color: #3c763d;
+}
+.control-number {
+    text-align: center;
+    border: 1px solid #777777;
+    background: #FFFFFF;
+    margin: 0 38px;
+}
+/*Завершение платежа конец*/

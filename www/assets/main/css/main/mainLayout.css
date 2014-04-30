@@ -1,0 +1,512 @@
+/*СТИЛЬ ТЕГОВ ДЛЯ ШАБЛОНА НАЧАЛО*/
+ html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 14px;
+    color: #252525;
+    background: #6f2766;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+a {
+    color: #0055CC;
+}
+a:hover {
+    color: #CC0000;
+}
+/*СТИЛЬ ТЕГОВ ДЛЯ ШАБЛОНА КОНЕЦ*/
+
+/*ОСНОВНОЙ СТИЛЬ НАЧАЛО*/
+ .main-container {
+    width: 960px;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+/*Head начало*/
+ .main-header-container {
+    width: 100%;
+    height: 146px;
+    overflow: hidden;
+    padding: 0 36px;
+    background: #ececec;
+    background-image: -webkit-linear-gradient(-80deg, #ececec, #f4f4f4);
+    background-image: -moz-linear-gradient(-80deg, #ececec, #f4f4f4);
+    background-image: -o-linear-gradient(-80deg, #ececec, #f4f4f4);
+    background-image: linear-gradient(170deg, #ececec, #f4f4f4);
+    position: relative;
+}
+.block-divider {
+    width: 930px;
+    height: auto;
+    position: absolute;
+    border-bottom: 1px dashed #A0A0A0;
+    top: 145px;
+    left: 15px;
+}
+/*Логотип*/
+ .logo-container {
+    width: 252px;
+    height: 80px;
+    margin: 33px auto 0 auto;
+    overflow: hidden;
+}
+.logo-link {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.logo-link:hover {
+    text-decoration: none;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+/*Верхний текст логотипа*/
+ .logo-top-text {
+    font-size: 16px;
+    line-height: 14px;
+    color: #797979;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 5px;
+}
+/*Нижний текст логотипа*/
+ .logo-bottom-text {
+    font-family:"Cambria";
+    font-size: 73px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #252525;
+    text-transform: uppercase;
+    margin: 0;
+    border-top: 1px solid #636363;
+}
+/*Head конец*/
+
+/*Body начало*/
+ .main-body-container {
+    width: 100%;
+    height: 100%;
+    min-height: 1080px;
+    overflow: hidden;
+    background: #ececec;
+    background-image: -webkit-linear-gradient(-80deg, #ececec, #f4f4f4);
+    background-image: -moz-linear-gradient(-80deg, #ececec, #f4f4f4);
+    background-image: -o-linear-gradient(-80deg, #ececec, #f4f4f4);
+    background-image: linear-gradient(170deg, #ececec, #f4f4f4);
+}
+/*Конейтер главного меню*/
+ .main-menu-container {
+    width: 600px;
+    height: auto;
+    margin: 32px auto 0 auto;
+    overflow: hidden;
+}
+/*Кнопки*/
+ .menu-item {
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    background: #3498DB;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 24px;
+    float: left;
+    margin-right: 30px;
+}
+.menu-item:hover {
+    opacity: .8;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu-item:active {
+    opacity: 1;
+    background: #2c8aca;
+}
+.menu-item:last-child {
+    margin-right: 0;
+}
+/*Галерея новых фильмов - контейнер*/
+ .new-film-gallery-block {
+    width: 100%;
+    height: auto;
+    margin-top: 46px;
+}
+/*Заголовок страницы*/
+ .page-header-text {
+    font-family: Cambria;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 30px 0 24px 36px;
+}
+/*Центральная галлерея начало*/
+
+/*Контейнер картинки*/
+ .new-film-item {
+    width: 100%;
+    height: 420px;
+}
+.new-film-item > a {
+    text-decoration: none;
+}
+/*Чёрная подложка для слайдера*/
+ .black-background {
+    width: 100%;
+    height: 460px;
+    background: #000000;
+    opacity: .6;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+    display: none;
+}
+/*Блок с кнопкой*/
+ .buy-are-ticket-btn {
+    display: none;
+    width: 250px;
+    height: 77px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    top: 191px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #3498db;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 2px rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 2px rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 2px rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    border: solid 1px #2980b9;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .26), rgba(255, 255, 255, 0));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .26), rgba(255, 255, 255, 0));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, .26), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .26), rgba(255, 255, 255, 0));
+    font-size: 24px;
+    color: #ececec;
+    text-shadow: 0 1px rgba(0, 0, 0, .32);
+    text-align: center;
+    color: #FFFFFF;
+}
+.buy-are-ticket-btn:hover {
+    border: 1px solid #297fb9;
+    -moz-border-radius: 7px / 7px;
+    -webkit-border-radius: 7px / 7px;
+    border-radius: 7px / 7px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #36a0e8;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0NSA2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDUiIGhlaWdodD0iNjAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+}
+.buy-are-ticket-btn:active {
+    border: 1px solid #297fb9;
+    -moz-border-radius: 7px / 7px;
+    -webkit-border-radius: 7px / 7px;
+    border-radius: 7px / 7px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #2883c1;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0NSA2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDUiIGhlaWdodD0iNjAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+}
+.fotorama:hover .buy-are-ticket-btn {
+    display: block;
+}
+.fotorama:hover .black-background {
+    display: block;
+}
+/*Текст кнопки*/
+ .but-ticket-text {
+    position: relative;
+    top: 26px;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.but-ticket-text:hover {
+    text-decoration: none !important;
+}
+/*Центральная галлерея конец*/
+
+/*Популярные фильмы начало*/
+ .popular-films-gallery {
+    margin-left: 36px;
+    margin-bottom: 30px;
+}
+.popular-films-container {
+    height: 530px;
+    overflow-y: auto;
+}
+.popular-films-gallery > .page-header-text {
+    margin-left: 0;
+}
+/*Элимент блока популярных фильмов*/
+ .popular-film-item {
+    width: 206px;
+    height: 275px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.popular-film-item:nth-child(4n) {
+    margin-right: 0;
+}
+.popular-film-item:hover .popular-film-black-background {
+    display: block;
+}
+.popular-film-item:hover .popular-film-controls {
+    display: block;
+}
+/*Размер картинки популярного фильма*/
+ .film-image-container {
+    width: 206px;
+    height: 206px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+/*Контейнер кнопок действия над популярными фильмами*/
+ .popular-film-controls {
+    display: none;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 57px;
+    left: 0;
+    z-index: 2;
+}
+.popular-film-controls > a:hover {
+    text-decoration: none;
+}
+/*Кнопка покупки билета*/
+ .popular-film-buy-ticket {
+    width: 148px;
+    height: 38px;
+    margin: 0 auto;
+    border: 1px solid #297fb9;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #3397db;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE1MCA0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNDAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    color: #ebebeb;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .32);
+    text-align: center;
+    padding-top: 12px;
+}
+.popular-film-buy-ticket:hover {
+    border: 1px solid #297fb9;
+    -moz-border-radius: 4px / 4px;
+    -webkit-border-radius: 4px / 4px;
+    border-radius: 4px / 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #36a0e8;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0NSA2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDUiIGhlaWdodD0iNjAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+}
+.popular-film-buy-ticket:active {
+    border: 1px solid #297fb9;
+    -moz-border-radius: 4px / 4px;
+    -webkit-border-radius: 4px / 4px;
+    border-radius: 4px / 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #2883c1;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0NSA2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDUiIGhlaWdodD0iNjAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+}
+/*Кнопка о фильме*/
+ .popular-film-about-film {
+    width: 148px;
+    height: 38px;
+    margin: 10px auto 0 auto;
+    border: 1px solid #b5b5b5;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #fff;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE1MCA0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMTcxODE3IiBzdG9wLW9wYWNpdHk9IjAuMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC4xIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+    background-image: -moz-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    color: #252525;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .32);
+    text-align: center;
+    padding-top: 12px;
+}
+.popular-film-about-film:hover {
+    border: 1px solid #b5b5b5;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #e5e4e4;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE1MCA0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMTcxODE3IiBzdG9wLW9wYWNpdHk9IjAuMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC4xIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+    background-image: -moz-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+}
+.popular-film-about-film:active {
+    border: 1px solid #b5b5b5;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #d2d2d2;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 #fff;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE1MCA0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMTcxODE3IiBzdG9wLW9wYWNpdHk9IjAuMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMC4xIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQwIiBmaWxsPSJ1cmwoI2hhdDApIiAvPgo8L3N2Zz4=);
+    background-image: -moz-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+    background-image: linear-gradient(bottom, rgba(24, 25, 24, .1) 0%, rgba(255, 255, 255, .1) 100%);
+}
+/*Название фильма*/
+ .film-name-container {
+    width: 206px;
+    overflow: hidden;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+.film-name-text {
+    width: 206px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #252525;
+}
+/*Чёрная подложка*/
+ .popular-film-black-background {
+    display: none;
+    width: 100%;
+    height: 206px;
+    background: #000000;
+    border-radius: 5px;
+    opacity: .6;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+/*Популярные фильмы конец*/
+
+/*Body конец*/
+
+/*Footer начало*/
+ .main-footer-container {
+    width: 100%;
+    height: 78px;
+    overflow: hidden;
+    padding: 0 36px;
+    position: relative;
+    background: #ececec;
+    background-image: -webkit-linear-gradient(-80deg, #e6e6e6, #e2e2e2);
+    background-image: -moz-linear-gradient(-80deg, #e6e6e6, #e2e2e2);
+    background-image: -o-linear-gradient(-80deg, #e6e6e6, #e2e2e2);
+    background-image: linear-gradient(170deg, #e6e6e6, #e2e2e2);
+}
+.copyright-container {
+    width: 127px;
+    margin: 20px auto 0;
+}
+.footer-divider {
+    width: 930px;
+    height: auto;
+    position: absolute;
+    border-bottom: 1px dashed #A0A0A0;
+    top: 0;
+    left: 15px;
+}
+/*Footer конец*/
+
+/*ОСНОВНОЙ СТИЛЬ КОНЕЦ*/

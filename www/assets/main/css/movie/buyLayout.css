@@ -1,0 +1,243 @@
+/*Блок покупки билета к фильму начало*/
+ .buy-ticket-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 26px 0;
+}
+/*Тело покупки билета*/
+ .buy-ticket-body {
+    width: 888px;
+    height: auto;
+    margin: 40px auto 0;
+    overflow: hidden;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #a0a0a0;
+}
+/*Блок с названием и постером фильма*/
+ .buy-ticket-film {
+    width: 444px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+/*Название фильма контейнер*/
+ .ticket-film-name {
+    width: 280px;
+    height: auto;
+    overflow: hidden;
+}
+.ticket-film-name > a {
+    text-decoration: underline;
+}
+.film-name {
+    width: 280px;
+    height: auto;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 5px;
+    margin-top: 0;
+}
+/*Постер фильма*/
+ .ticket-film-poster {
+    width: 279px;
+    height: 299px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #777777;
+}
+/*Правый блок с контролами*/
+ .buy-controls-container {
+    width: 444px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+.select-cinema-container {
+    margin-bottom: 30px;
+}
+.select-cinema {
+    border-radius: 5px;
+    font-size: 14px;
+    color: #757575;
+    padding: 8px 14px 8px 14px;
+}
+/*Заголовки разделов*/
+ .control-header-text {
+    font-family: Cambria;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/*Блок выбора кинотеатра начало*/
+ .select-seat-container {
+    width: 888px;
+    height: auto;
+    margin: 30px auto 0;
+    overflow: hidden;
+    border-bottom: 1px solid #a0a0a0;
+    padding-bottom: 30px;
+}
+/*Название раздела*/
+ .seat-block-header {
+    text-align: center;
+}
+/*Кинотеатр*/
+ .cinema-plane-container {
+    width: 400px;
+    margin: 0 auto;
+}
+/*Экран*/
+ .display-container {
+    font-family: Arial;
+    color: #777777;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0;
+    border-bottom: 2px solid #a0a0a0;
+}
+/*Места*/
+ .seat-table input[type="checkbox"]:not(:checked) {
+    cursor: pointer;
+}
+.seat-table > tbody > tr > td {
+    border: none;
+}
+.table-hover > tbody > tr:hover > td {
+    background-color: #bdc3c7;
+    cursor: pointer;
+}
+.blue {
+    background-color: #3498db;
+    font-weight: bold;
+}
+.blue:hover > td {
+    background-color: #3498db !important;
+}
+/*Подсказки*/
+ .designation-block {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.sign-block {
+    float: left;
+    margin-right: 20px;
+}
+.sign-block:last-child {
+    margin-right: 0;
+}
+/*Блок выбора кинотеатра конец*/
+
+/*Блок оплаты*/
+ .payment-container {
+    width: 888px;
+    height: auto;
+    overflow: hidden;
+    margin: 30px auto 0;
+    display: none;
+}
+.payment-block-header {
+    text-align: center;
+}
+.payment-subject-container {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a0a0a0;
+    font-family: Cambria;
+    font-size: 16px;
+    line-height: 16px;
+}
+.sum-container {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.blue-text-sum, .blue-text {
+    color: #3498db;
+    font-size: 16px;
+}
+.blue-text-sum {
+    font-size: 18px;
+}
+.payment-btn {
+    width: 250px;
+    height: 58px;
+    margin: 0 auto;
+    border: 1px solid #297fb9;
+    -moz-border-radius: 7px / 5px;
+    -webkit-border-radius: 7px / 5px;
+    border-radius: 7px / 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #3397db;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0NSA2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDUiIGhlaWdodD0iNjAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    color: #ebebeb;
+    font-size: 14px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .32);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.payment-btn:hover {
+    border: 1px solid #297fb9;
+    -moz-border-radius: 7px / 5px;
+    -webkit-border-radius: 7px / 5px;
+    border-radius: 7px / 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #36a0e8;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0NSA2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDUiIGhlaWdodD0iNjAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+}
+.payment-btn:active {
+    border: 1px solid #297fb9;
+    -moz-border-radius: 7px / 5px;
+    -webkit-border-radius: 7px / 5px;
+    border-radius: 7px / 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #2883c1;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .19), inset 0 1px 0 rgba(255, 255, 255, .58), inset 0 0 5px rgba(255, 255, 255, .38);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI0NSA2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSItMS40MjEwODU0NzE1MjAyZS0xNCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjYiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyNDUiIGhlaWdodD0iNjAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .26) 100%);
+}
+.payment-btn:hover {
+    cursor: pointer;
+}
+/*Блок покупки билета к фильму конец*/

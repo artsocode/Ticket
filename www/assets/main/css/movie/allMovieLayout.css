@@ -1,0 +1,12 @@
+/*Основной контейнер всех фильмов начало*/
+ .all-movie-container {
+    margin: 26px 0;
+    overflow: hidden;
+}
+/*Контейнер для видео*/
+ .all-movie {
+    width: 888px;
+    height: auto;
+    margin: 0 auto;
+}
+/*Основной контейнер всех фильмов конец*/
